@@ -8,7 +8,7 @@ CREATE TABLE dbo.SupportRequests(
     Id INT IDENTITY(1,1) NOT NULL,
     RequestDate DATETIME NOT NULL,
     Email VARCHAR(100) NOT NULL,
-    Problem VARCHAR(500) NOT NULL
+    Problem VARCHAR(500) NOT NULL,
     CONSTRAINT PK_SupportRequests PRIMARY KEY (Id)
 )
 GO
